@@ -49,6 +49,11 @@ group :development do
     gem 'pry'
     gem 'hirb'
     gem "puma"
+    gem 'rspec-rails', '3.2.3'
+  end
+
+  group :test do
+    gem 'capybara', '2.4.4'
   end
 
   group :production do
